@@ -1,0 +1,150 @@
+body{
+    font-family: 'Advent Pro', sans-serif;
+    margin:0px;
+    padding:0px;
+    color:white;
+}
+
+.container{
+    background: url(https://images.unsplash.com/photo-1432639557412-3959ab5e8047?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3015&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100vh;
+}
+
+.adventure-text{
+    font-weight: 900;
+    font-size: 2vw;
+    width:90vw;
+    margin: auto;
+    padding-top: 2vh;
+}
+.text-container{
+    width:80%;
+    margin: auto;
+    padding-top:15vh;
+}
+.container .wildlife-text{
+    font-size: 20vw;
+    color: rgba(256,256,256,0.5);
+    text-align: left;
+    line-height: 15vw;
+    font-weight: 900;
+
+}
+.container .the-text{
+    font-size: 3vw;
+    color: rgba(256,256,256,0.8);
+    text-align: left;
+    font-weight: 900;
+    padding-left: 10px;
+}
+.container .forest-text{
+    font-size: 3vw;
+    letter-spacing: 1.5vw;
+    color: rgba(256,256,256,0.8);
+    text-align: center;
+}
+
+.blur-span{
+    float: right;
+    width: 5vw;
+    overflow: hidden;
+}
+.non-blur-span{
+    float: left;
+    width: 95vw;
+    height: 85vh;
+}
+
+.blur-panel{
+    filter: brightness(1.8) blur(4px);
+    height: 100vh;
+    transform: scale(1.1);
+    background: url(https://images.unsplash.com/photo-1432639557412-3959ab5e8047?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3015&q=80) no-repeat center right fixed; 
+}
+
+.blur-panel-div{
+    
+    height:100vh;
+    position: fixed;
+    margin-top: -100vh;
+    
+}
+
+.btn-bars{
+    width: 5vw;
+    text-align: center;
+    margin: 5vh 0;
+    padding-bottom: 20vh;
+}
+.btn-final{
+    width: 5vw;
+    text-align: center;
+    margin: 20vh 0;
+}
+.btn{
+    color: black;
+    opacity: 0.6;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+.btn-div{
+    width: 5vw;
+    text-align: center;
+    margin: 5vh 0;
+}
+
+
+.footer-span{
+    font-family: roboto;
+    font-size: 12px;
+}
+.footer-container{
+    width:90vw;
+    margin: auto;
+}
+.footer-floating{
+    float: left;
+    margin: -1vw 1vw;
+    border-right: solid rgba(256,256,256,0.8);
+}
+.footer-floating-1{
+    width: 15vw;
+}
+.footer-floating-2{
+    width: 40vw;
+}
+.footer-floating-3{
+    width: 5vw;
+    border: none;
+}
+
+.footer-heading{
+    color: wheat;
+}
+.footer-sub-heading{
+    color: rgba(256,256,256,0.6);
+}
+
+.faded-text{
+    opacity: 0.6;
+}
+.larger-text{
+    font-size: 16px;
+    line-height: 18px;
+}
+#festival-date{
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.large-text{
+    line-height: 0px;
+    font-size: 30px;
+}
