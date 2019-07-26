@@ -6,4 +6,4 @@ CSS3
 OpenFire
 Converse.js
 
-![Alt text](wildlife.jpg?raw=true "Title")
+![Alt text](https://github.com/debojyotiroy13/WildlifeAdventure/edit/master/wildlife.png)
