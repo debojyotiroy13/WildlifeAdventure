@@ -9,23 +9,33 @@
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
     <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.conversejs.org/4.2.0/css/converse.min.css">
-    <script src="https://cdn.conversejs.org/4.2.0/dist/converse.min.js" charset="utf-8"></script>
+    <script src="converse.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="converse.css">
     <title>Wildlife</title>
 </head>
 <body>
     <script>
         console.log('Connecting to http://localhost:7070/http-bind/ ...');
+        converse.initialize({
+            show_desktop_notifications: false,
+            show_client_info: false,
+            show_controlbox_by_default: false,
+            authentication: 'login',
+            auto_login: true,
+            bosh_service_url: 'http://localhost:7070/http-bind/',
+            jid: 'reeya@localhost',
+            password: 'reeya',
+            theme:'concord'
+        });
+
         // converse.initialize({
-        //     show_desktop_notifications: false,
-        //     show_client_info: false,
-        //     show_controlbox_by_default: false,
-        //     authentication: 'login',
-        //     auto_login: true,
-        //     bosh_service_url: 'http://localhost:7070/http-bind/',
-        //     jid: 'debo@localhost',
-        //     password: 'debo',
-        //     theme:'concord'
-            
+        //     bosh_service_url: 'http://jabber.at/http-bind/', // Please use this connection manager only for testing purposes
+        //     show_controlbox_by_default: true
+        // });
+
+        // converse.initialize({
+        //     bosh_service_url: 'https://www.xmpp.jp/http-bind/', // Please use this connection manager only for testing purposes
+        //     show_controlbox_by_default: true
         // });
         
     </script>

@@ -5,6 +5,8 @@ body{
     color:white;
 }
 
+textarea, select, input, button { outline: none; }
+
 .container{
     background: url(https://images.unsplash.com/photo-1432639557412-3959ab5e8047?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3015&q=80) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -60,7 +62,7 @@ body{
 }
 
 .blur-panel{
-    filter: brightness(1.8) blur(4px);
+    filter: brightness(.4) blur(4px);
     height: 100vh;
     transform: scale(1.1);
     background: url(https://images.unsplash.com/photo-1432639557412-3959ab5e8047?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3015&q=80) no-repeat center right fixed; 
@@ -86,7 +88,7 @@ body{
     margin: 20vh 0;
 }
 .btn{
-    color: black;
+    color: white;
     opacity: 0.6;
     text-decoration: none;
     font-size: 30px;
